@@ -1,0 +1,23 @@
+# dependencies and tooling
+node_modules/
+.wrangler/
+__pycache__/
+*.pyc
+.Python
+
+# local env and secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+credentials.json
+secrets/
+wrangler-account.json
+
+# build and scratch
+dist/
+shots/
+preview-home.png
+*.log
+.DS_Store
